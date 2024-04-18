@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndicatorView">
+        <attr name="piv_count" format="integer"/>
+        <attr name="piv_type" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="medium" value="1"/>
+            <enum name="enormous" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BannerView">
+
+            <attr name="message_text_size" format="dimension"/>
+        <attr name="message_text" format="string"/>
+        <attr name="message_color" format="color"/>
+
+    </declare-styleable>
+</resources>
